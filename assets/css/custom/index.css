@@ -431,6 +431,8 @@ header {
         flex: 100%;
         max-width: 100%;
     }
+    .button-display{
+visibility: hidden;    }
 
     .card4 {
         justify-content: center;
