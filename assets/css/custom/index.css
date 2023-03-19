@@ -2,6 +2,7 @@
 header {
     min-height: calc(100vh - 100px);
 }
+
 @media (max-width: 991.98px) {
     header {
         min-height: unset;
@@ -17,6 +18,7 @@ header {
     display: inline-flex;
     align-items: center;
 }
+
 .sec-i .sub-title::after {
     position: absolute;
     content: '';
@@ -69,29 +71,33 @@ header {
 }
 
 /* APP SECTION */
-.app-sec > div {
+.app-sec>div {
     background-image: url(./../../images/Rectangle_back.png);
     background-position: bottom;
     background-size: 100% 80%;
     background-clip: border-box;
     background-repeat: no-repeat;
 }
+
 /* text-content */
 .app-sec .text-content {
     padding-top: 36px;
     padding-bottom: 90px;
 }
+
 .app-sec .text-content .sub-title {
     font-size: 28px;
     color: var(--primary);
     font-weight: 400;
     margin-bottom: 25px;
 }
+
 .app-sec .text-content .para-1 {
     font-size: 22px;
     color: #fff;
     margin-bottom: 30px;
 }
+
 /* btns-title */
 .app-sec .btns-title {
     font-size: 28px;
@@ -99,18 +105,22 @@ header {
     font-weight: 400;
     margin-bottom: 15px;
 }
-.app-sec .buttons > a {
+
+.app-sec .buttons>a {
     display: inline-flex;
 }
-.app-sec .buttons > a:not(:last-child) {
+
+.app-sec .buttons>a:not(:last-child) {
     margin-left: 16px;
 }
+
 @media (max-width: 991.98px) {
-    .app-sec > div {
+    .app-sec>div {
         background-position: bottom;
         background-size: cover;
         background-clip: unset;
     }
+
     .app-sec .text-content {
         padding-top: 70px;
         padding-bottom: 70px;
@@ -123,9 +133,11 @@ header {
     left: 0;
     z-index: 2;
 }
+
 .slick-list {
-    margin:  0 -15px;
+    margin: 0 -15px;
 }
+
 .head1-v2 {
     color: var(--dark);
     font-size: 40px;
@@ -153,87 +165,88 @@ header {
 
 .knobs,
 .layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .button {
-  position: relative;
-  top: 50%;
-  width: 74px;
-  height: 36px;
-  margin: -20px auto 0 auto;
-  overflow: hidden;
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
 }
 
 .button.r,
 .button.r .layer {
-  border-radius: 100px;
+    border-radius: 100px;
 }
 
 .button.b2 {
-  border-radius: 2px;
+    border-radius: 2px;
 }
 
 .checkbox {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  opacity: 0;
-  cursor: pointer;
-  z-index: 3;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
 }
 
 .knobs {
-  z-index: 2;
+    z-index: 2;
 }
 
 .layer {
-  width: 100%;
-  background-color: #ebf7fc;
-  transition: 0.3s ease all;
-  z-index: 1;
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
 }
+
 #button-2 .knobs:before,
 #button-2 .knobs:after {
-  content: "";
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  width: 28px;
-  height: 28px;
-  color: #fff;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 1;
-  padding: 9px 4px;
-  background-color: #03a9f4;
-  border-radius: 50%;
-  transition: 0.3s ease all;
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 28px;
+    height: 28px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: #03a9f4;
+    border-radius: 50%;
+    transition: 0.3s ease all;
 }
 
 #button-2 .knobs:after {
-  right: -32px;
-  left: auto;
-  background-color: #f44336;
+    right: -32px;
+    left: auto;
+    background-color: #f44336;
 }
 
-#button-2 .checkbox:checked + .knobs:before {
-  left: -32px;
+#button-2 .checkbox:checked+.knobs:before {
+    left: -32px;
 }
 
-#button-2 .checkbox:checked + .knobs:after {
-  right: 4px;
+#button-2 .checkbox:checked+.knobs:after {
+    right: 4px;
 }
 
-#button-2 .checkbox:checked ~ .layer {
-  background-color: #fcebeb;
+#button-2 .checkbox:checked~.layer {
+    background-color: #fcebeb;
 }
 
 
@@ -305,10 +318,13 @@ header {
 .card .card-body .fea-list li .danger {
     color: red;
 }
+
 .sec-vi-v1 .month-span {
     display: none;
 }
+
 .sec-vi-v1 .month-span {}
+
 .card p {
     font-size: 16px;
     color: var(--dark);
@@ -420,13 +436,15 @@ header {
         justify-content: center;
         text-align: center !important;
     }
-    .card5{
+
+    .card5 {
         display: none;
     }
 
 
 }
-.customecard{
+
+.customecard {
     background-color: #01549F;
 }
 
@@ -468,6 +486,7 @@ header {
     margin-bottom: 50px;
     padding-right: 20px;
 }
+
 .sec-viii .left-content::before {
     position: absolute;
     content: '';
@@ -475,9 +494,22 @@ header {
     top: 30px;
     bottom: 15px;
     width: 2px;
-    background-color: rgba(0, 0, 0, .1) ;
+    background-color: rgba(0, 0, 0, .1);
 }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #EEE;
+    padding: 0;
+    margin-bottom: 0px;
+}
+
 .sec-viii {}
+
 .sec-viii {}
+
 .sec-viii {}
+
 .sec-viii {}
